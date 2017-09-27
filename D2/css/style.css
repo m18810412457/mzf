@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box; }
+
+html, body#warp {
+  width: 100%;
+  height: 100%;
+  background: #ccc; }
+
+header {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  color: #fff;
+  font-size: 18px;
+  background: #333; }
+
+section {
+  width: 100%;
+  height: 100%;
+  padding: 0 20px; }
+  section .box {
+    width: 100%;
+    background: #fff;
+    border-radius: 10px;
+    margin-top: 100px; }
+    section .box .head {
+      width: 100%;
+      padding: 20px 0; }
+      section .box .head div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; }
+        section .box .head div img {
+          width: 50%;
+          height: auto; }
+        section .box .head div p {
+          font-size: 20px; }
+    section .box .bodys {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 20px 0 100px 0;
+      position: relative; }
+      section .box .bodys input {
+        width: 90%;
+        height: 50px;
+        background: none;
+        border: none;
+        border-bottom: 1px solid #000;
+        padding: 0 0 0 25px;
+        margin-bottom: 15px; }
+      section .box .bodys button {
+        width: 90%;
+        height: 50px;
+        border: none;
+        background: green;
+        color: #fff;
+        font-size: 18px;
+        border-radius: 10px;
+        margin-top: 40px; }
+      section .box .bodys span {
+        position: absolute; }
+        section .box .bodys span img {
+          width: 15px;
+          height: auto; }
+      section .box .bodys .phone {
+        top: 33px;
+        left: 20px; }
+      section .box .bodys .suo {
+        top: 100px;
+        left: 20px; }
+
+/*# sourceMappingURL=style.css.map */
