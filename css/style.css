@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background: #eee;
+}
+header{
+    width: 100%;
+    height: 50px;
+    background: #fff;
+}
+header>ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header>ul>li{
+    flex: 1;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 35px;
+    border-bottom: 2px solid #fff;
+}
+header>ul>li:hover{
+    border-bottom: 2px solid blue;
+}
